@@ -1,0 +1,79 @@
+/* Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: Poppins;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgba(204, 204, 204,0.7)
+}
+
+.card{
+    padding: 5px;
+    background-color: white;
+    margin-left: 40% ;
+    margin-top: 5%;
+    height: 480px;
+    width: 330px;
+    border-radius: 15px;
+}
+
+.image{
+    position: relative;
+    width: inherit; 
+    align-items: center;
+
+}
+
+img{
+    position: relative;
+    display: fixed;
+    width: inherit;
+    height: inherit;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.card .tag{
+    list-style-type: none;
+    display: flex;
+    margin: 7px;
+}
+
+.tag li{
+    font-size: small;
+    margin-right: 7px;
+    border: rgb(194, 194, 194, 0.8) solid 1px;
+    border-radius: 9px;
+    padding: 1px 4px 1px 4px;
+}
+
+.card h2{
+    margin: 7px;
+    font-size: 1.5em;
+    font-weight: 600;
+
+}
+
+.card .desc{
+    margin: 7px;
+    font-weight: 300;
+    opacity: 0.7;
+}
+
+.card button{
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 10px;
+    background-color: rgb(202, 231, 255);
+    color: rgb(8, 125, 227);
+    border: none;
+    padding: 2px 9px 2px 9px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+
